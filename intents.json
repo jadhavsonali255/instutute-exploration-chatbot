@@ -1,0 +1,156 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "college",
+      "patterns": [
+        "Enter specific college name?"
+
+      ],
+      "responses": [
+        "National college of Ireland",
+        "Trinity college dublin",
+        "Dublin city university",
+        "Dublin business school"
+      ],
+       "context_set": "college"
+    },
+    {
+      "tag": ["National college of Ireland", "NCI"],
+      "patterns": [
+        "What masters programs and courses do you offer?",
+        "what is the application process for admission?",
+        "what are the application deadline?",
+        "what are the tution fees for various programs",
+        "what are the minimum requirement for admission?",
+        "how can i submit my application?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "data analytics, cyber security, artificial intelligence, cloud computing, international business, psychology",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply",
+        "please refer the college website https://www.ncirl.ie/Study/How-to-Apply"
+      ],
+      "context_filter": "college"
+    },
+    {
+      "tag": "Trinity college dublin",
+      "patterns": [
+        "What masters programs and courses do you offer?",
+        "what is the application process for admission?",
+        "what are the application deadline?",
+        "what are the tution fees for various programs",
+        "what are the minimum requirement for admission?",
+        "how can i submit my application?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+       "data analytics, cyber security, artificial intelligence, cloud computing, international business, psychology",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/",
+        "please refer the college website https://www.tcd.ie/study/international/how-to-apply/"
+      ],
+      "context_filter": "college"
+    },
+
+    {
+      "tag":  "Dublin city university",
+      "patterns": [
+       "What masters programs and courses do you offer?",
+        "what is the application process for admission?",
+        "what are the application deadline?",
+        "what are the tution fees for various programs",
+        "what are the minimum requirement for admission?",
+        "how can i submit my application?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+       "data analytics, cyber security, artificial intelligence, cloud computing, international business, psychology",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal",
+        "please refer the college website https://www.dcu.ie/your-guide-to-student-application-portal"
+      ]
+    },
+    {
+      "tag":  "Dublin business school",
+      "patterns": [
+       "What masters programs and courses do you offer?",
+        "what is the application process for admission?",
+        "what are the application deadline?",
+        "what are the tution fees for various programs",
+        "what are the minimum requirement for admission?",
+        "how can i submit my application?",
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+       "data analytics, cyber security, artificial intelligence, cloud computing, international business, psychology",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form",
+        "please refer the college website https://www.dbs.ie/application-form"
+      ]
+    }
+  ]
+}
